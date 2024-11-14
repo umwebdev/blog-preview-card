@@ -1,0 +1,129 @@
+@font-face {
+  font-family: Figtree;
+  src: url("./assets/fonts/Figtree-VariableFont_wght.ttf");
+}
+
+:root {
+  /* colors */
+  --yellow: #f4d04e;
+  --gray-950: #111111;
+  --gray-500: #6b6b6b;
+  --black: #000000;
+  --white: #ffffff;
+
+  /* spacing */
+  --sp-300: 24px;
+  --sp-150: 12px;
+  --sp-100: 8px;
+  --sp-50: 4px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Figtree", sans-serif;
+
+  color: var(--gray-950);
+  background-color: var(--yellow);
+
+  min-height: 100dvh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1,
+h2,
+p,
+span {
+  line-height: 1.5;
+  letter-spacing: 0px;
+}
+
+/* typography preset classes */
+.text-preset-1 {
+  font-size: clamp(1.25rem, 1rem + 1vw, 1.5rem);
+  font-weight: 800;
+}
+
+.text-preset-2 {
+  font-size: clamp(0.875rem, 0.7rem + 0.8vw, 1rem);
+  font-weight: 500;
+}
+
+.text-preset-3 {
+  font-size: clamp(0.75rem, 0.6rem + 0.7vw, 0.875rem);
+  font-weight: 500;
+}
+
+.text-preset-3-bold {
+  font-size: 0.875rem;
+  font-weight: 800;
+}
+
+.text-preset-3-bold-responsive {
+  font-size: clamp(0.75rem, 0.6rem + 0.7vw, 0.875rem);
+  font-weight: 800;
+}
+
+/* blog-preview-card */
+.blog-preview-card {
+  max-width: 384px;
+  width: 90%;
+  margin: 0 auto;
+
+  background-color: var(--white);
+  padding: var(--sp-300);
+
+  box-shadow: 8px 8px 0px 0px var(--black);
+  border: 1px solid var(--gray-950);
+  border-radius: 20px;
+}
+
+.feature-img {
+  display: block;
+  border-radius: 10px;
+  margin-bottom: var(--sp-300);
+}
+
+.tag {
+  display: inline-block;
+  padding: var(--sp-50) var(--sp-150);
+  background-color: var(--yellow);
+  border-radius: 4px;
+
+  margin-bottom: var(--sp-150);
+}
+
+.published-info {
+  margin-bottom: var(--sp-150);
+}
+
+.title {
+  margin-bottom: var(--sp-150);
+}
+
+.desc {
+  color: var(--gray-500);
+  margin-bottom: var(--sp-300);
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-150);
+}
+
+.author-img {
+  display: block;
+  width: 32px;
+}
