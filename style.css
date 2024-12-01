@@ -110,6 +110,13 @@ span {
 
 .title {
   margin-bottom: var(--sp-150);
+
+  transition: color 0.2s ease-in-out;
+}
+
+.title:hover {
+  cursor: pointer;
+  color: var(--yellow);
 }
 
 .desc {
