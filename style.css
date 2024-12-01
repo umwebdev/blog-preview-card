@@ -77,8 +77,7 @@ span {
 
 /* blog-preview-card */
 .blog-preview-card {
-  max-width: 384px;
-  width: 90%;
+  width: 384px;
   margin: 0 auto;
 
   background-color: var(--white);
@@ -133,4 +132,10 @@ span {
 .author-img {
   display: block;
   width: 32px;
+}
+
+@media (max-width: 480px) {
+  .blog-preview-card {
+    width: 90%;
+  }
 }
