@@ -26,6 +26,7 @@
 
 img {
   max-width: 100%;
+  display: block;
 }
 
 body {
@@ -89,7 +90,6 @@ span {
 }
 
 .feature-img {
-  display: block;
   border-radius: 10px;
   margin-bottom: var(--sp-300);
 }
@@ -130,7 +130,6 @@ span {
 }
 
 .author-img {
-  display: block;
   width: 32px;
 }
 
