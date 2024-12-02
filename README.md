@@ -12,6 +12,11 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 - Solution URL: [View Code](https://github.com/umwebdev/blog-preview-card)
 - Live Site URL: [Preview Live](https://femblog-preview-card.vercel.app/)
 
+### Built with
+
+- HTML
+- CSS
+
 ## Author
 
 - Website - [umwebdev](https://www.umweb.dev)
