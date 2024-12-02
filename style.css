@@ -34,12 +34,6 @@ body {
 
   color: var(--gray-950);
   background-color: var(--yellow);
-
-  min-height: 100dvh;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 h1,
@@ -76,10 +70,18 @@ span {
   font-weight: 800;
 }
 
+main {
+  min-height: 100dvh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* blog-preview-card */
 .blog-preview-card {
-  width: 384px;
-  margin: 0 auto;
+  max-width: 384px;
+  width: 90%;
 
   background-color: var(--white);
   padding: var(--sp-300);
@@ -131,10 +133,4 @@ span {
 
 .author-img {
   width: 32px;
-}
-
-@media (max-width: 480px) {
-  .blog-preview-card {
-    width: 90%;
-  }
 }
