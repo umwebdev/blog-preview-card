@@ -27,7 +27,8 @@ This is the second challenge from my journey of taking Front End Mentor's challe
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Screenshot Desktop](./blog-preview-card-desktop.png)
+![Screenshot Mobile](./blog-preview-card-mobile.png)
 
 ### Links
 
