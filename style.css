@@ -119,9 +119,14 @@ main {
   transition: color 0.2s ease-in-out;
 }
 
-.title a:hover {
+.title a:hover,
+.title a:focus {
   cursor: pointer;
   color: var(--yellow);
+}
+
+.title a:focus {
+  outline: none;
 }
 
 .title a::before {
